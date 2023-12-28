@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "maply"
 version = "0.1.0"
-description = "Place scatterplot on a map and let users see where people are from."
+description = "Discord bot that updates a world map with users' locations based on country reactions, showcasing community diversity."
 authors = ["DLCHAMP <36091350+dlchamp@users.noreply.github.com>"]
 readme = "README.md"
 
