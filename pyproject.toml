@@ -13,6 +13,8 @@ geopandas = "^0.14.1"
 disnake = "^2.9.1"
 sqlalchemy = "^2.0.24"
 asyncpg = "^0.29.0"
+disnake-ext-plugins = {git = "https://github.com/DisnakeCommunity/disnake-ext-plugins"}
+coloredlogs = "^15.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -27,6 +29,10 @@ psycopg2 = "^2.9.9"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+
+
 
 [tool.poetry.group.lint.dependencies]
 disnake = "^2.9.1"
