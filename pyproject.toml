@@ -108,7 +108,8 @@ exclude = [
     "migrate.py"
 ]
 
-
+[tool.ruff.per-file-ignores]
+"maply/log.py" = ["ANN401"]
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
